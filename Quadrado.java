@@ -15,7 +15,7 @@ public class Quadrado {
     }
 
     public void imprimir(){
-        System.out.printf("Lado: %d, Área: %d, Perîmetro: %d \n", lado, calcularArea(), calcularPerimetro());
+        System.out.printf("Lado: %d, Área: %d, Perímetro: %d \n", lado, calcularArea(), calcularPerimetro());
     }
 
     
