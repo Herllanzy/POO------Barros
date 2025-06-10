@@ -1,8 +1,8 @@
-public class PrincipalHelicóptero{                                             
+public class PrincipalHelicoptero{                                             
     
     public static void main(String [] args){
-        Helicóptero h = new Helicóptero(5);
-        Helicóptero m = new Helicóptero(7);
+        Helicoptero h = new Helicoptero(5);
+        Helicoptero m = new Helicoptero(7);
         System.out.println(h);
         System.out.println(m);
         
