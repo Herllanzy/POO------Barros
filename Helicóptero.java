@@ -1,11 +1,11 @@
-public class Helicóptero {
+public class Helicoptero {
 
     private boolean ligado;
     private int altitude;
     private int capacidadeDoHelicoptero;
     private int quantidadeDePessoas;
 
-    public Helicóptero(int capacidadeDoHelicoptero){
+    public Helicoptero(int capacidadeDoHelicoptero){
         this.capacidadeDoHelicoptero = capacidadeDoHelicoptero;
     }
 
@@ -59,7 +59,7 @@ public class Helicóptero {
     }
     //Modificador 
     public void setAltitude(int novaAltitude){
-        this.altitude = altitude;
+        this.altitude = novaAltitude;
     } //Acessador
     public int getcapacidadeDoHelicoptero(){
         return capacidadeDoHelicoptero;
