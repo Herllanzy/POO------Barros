@@ -10,13 +10,13 @@ public class Helicoptero {
     }
 
     public void entra(){
-        if (quantidadeDePessoas < 5){
-            quantidadeDePessoas = quantidadeDePessoas + 3;
+        if (quantidadeDePessoas + 1 <= capacidadeDoHelicoptero){
+            quantidadeDePessoas += 1; 
         }
     }
     public void sai(){
-        if (quantidadeDePessoas < 5){
-            quantidadeDePessoas = quantidadeDePessoas - 3;
+        if (quantidadeDePessoas >= 1){
+            quantidadeDePessoas -= 1;
         }
     }
 
