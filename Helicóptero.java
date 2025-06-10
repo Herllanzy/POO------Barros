@@ -26,9 +26,9 @@ public class Helicóptero {
         }
     }
 
-    public void decolar(){
+    public void decolar(int novaAltitude){
         if (ligado == true && altitude == 0){
-            altitude = altitude + 100;
+            altitude = novaAltitude;
         }
     }
 
