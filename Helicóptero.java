@@ -69,7 +69,7 @@ public class Helicoptero {
         this.capacidadeDoHelicoptero = novaCapacidadeDoHelicoptero;
     }
      //Acessador
-    public int getQuantidade_de_pessoas(){
+    public int getQuantidadeDePessoas(){
         return quantidadeDePessoas;
     }
     //Modificador 
