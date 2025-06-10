@@ -51,7 +51,7 @@ public class Helicoptero {
     }
     //Modificador 
     public void setLigado(boolean novoLigado){
-        this.ligado = ligado;
+        this.ligado = novoLigado;
     }
      //Acessador
      public int getAltitude(){
@@ -66,7 +66,7 @@ public class Helicoptero {
     }
     //Modificador 
     public void setCapacidadeDoHelicoptero(int novaCapacidadeDoHelicoptero){
-        this.capacidadeDoHelicoptero = capacidadeDoHelicoptero;
+        this.capacidadeDoHelicoptero = novaCapacidadeDoHelicoptero;
     }
      //Acessador
     public int getQuantidade_de_pessoas(){
@@ -74,7 +74,7 @@ public class Helicoptero {
     }
     //Modificador 
     public void setQuantidadeDePessoas(int novaQuantidadeDePessoas){
-        this.quantidadeDePessoas = quantidadeDePessoas;
+        this.quantidadeDePessoas = novaQuantidadeDePessoas;
     }
 
     public String toString(){
