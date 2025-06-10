@@ -61,11 +61,11 @@ public class Helicoptero {
     public void setAltitude(int novaAltitude){
         this.altitude = novaAltitude;
     } //Acessador
-    public int getcapacidadeDoHelicoptero(){
+    public int getCapacidadeDoHelicoptero(){
         return capacidadeDoHelicoptero;
     }
     //Modificador 
-    public void setcapacidadeDoHelicoptero(int novaCapacidadeDoHelicoptero){
+    public void setCapacidadeDoHelicoptero(int novaCapacidadeDoHelicoptero){
         this.capacidadeDoHelicoptero = capacidadeDoHelicoptero;
     }
      //Acessador
