@@ -8,11 +8,11 @@ public class PrincipalHelicóptero{
         
         h.entra();
         h.ligar();
-        h.decolar();
+        h.decolar(200);
 
         m.entra();
         m.ligar();
-        m.decolar();
+        m.decolar(350);
     
         System.out.println("======================");
         System.out.println("======================");
